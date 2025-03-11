@@ -1,7 +1,29 @@
+/* Reset default margin and padding for a consistent layout */
 body {
-  
-  background-color: #845BC7;
-  color: #000000;
-  font-family: 'Inter', 'Arial';
+  font-family: 'Inter', 'Arial'; /* Sets the default font style */
+  margin: 0;
   padding: 20px;
+  text-align: center; /* Centers text globally */
 }
+
+/* Header Styling */
+header {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /*Pushes content to opposite sides */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  background-color: #845BC7; /* Light grey background */
+  color: #000000; /* Adds a subtle bottom border */
+  border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
+}
+
+/* Logo Styling */
+.logo {
+    max-width: 100px /* Restricts logo size */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px;
+} 
