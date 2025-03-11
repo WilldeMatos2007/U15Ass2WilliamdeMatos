@@ -27,3 +27,26 @@ nav {
     background-color: #333; /* Dark background for contrast */
     padding: 10px;
 } 
+
+nav a {
+  color: white; /* Sets text color */
+  text-descoration: none; /* Removes underline from links */
+  margin: 0 10px; /* Adds spacing between links */
+}
+
+/* Main Content Section Styling */
+
+.content {
+  background-color: #845BC7; /* light grey background */
+  pdadding: 20px; /* Add space inside the main section */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /*Center text */
+  width: 100%; /*  Full width */ 
+  max-width: 100%; /* Ensure it doesn't exceed the viewport */
+  margin: 0 auto; /* Center horizontally */
+  box-shadow:  0 4px 8px rgba (0, 0, 0, 0.1); /* Add a subtle shadow */
+  border: 2px solid #2c3e50; /* Dark blue-grey border */
+}
+
+.content h2 {
+  
