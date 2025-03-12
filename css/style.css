@@ -36,13 +36,13 @@ nav a {
 
 /* Main Content Section Styling */
 .mainpage {
-  background-color: #1A42DC;
+  background-color: blue;
   color: white; /* Ensures text is visible */
   padding: 20px; /* Optional: Adds spacing inside */
 }
 
 .content {
-  background-color: #f9f9f9; /* Light grey background */
+  background-color: #1A42DC; /* Light grey background */
   padding: 20px; /* Add space inside the main section */
   border-radius: 10px; /* Rounded corners */
   text-align: center; /* Center text */
