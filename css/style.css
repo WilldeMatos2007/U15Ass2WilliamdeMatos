@@ -35,7 +35,11 @@ nav a {
 }
 
 /* Main Content Section Styling */
-
+.mainpage {
+  background-color: blue
+  color: white; /*Ensures text is visible */
+  padding: 20px; /* Optional: Adds spacing inside */
+}
 .content {
   background-color: #f9f9f9; /* light grey background */
   pdadding: 20px; /* Add space inside the main section */
