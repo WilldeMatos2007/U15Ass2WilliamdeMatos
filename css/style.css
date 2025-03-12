@@ -75,7 +75,7 @@ sections {
 
 /* Footer Styling */
 footer {
-  background-color: #1A42DC; /* Matches nav bar */
+  background-color: #333; /* Matches nav bar */
   color: white; /* White text for contrast */
   padding: 10px;
   position: relative;
