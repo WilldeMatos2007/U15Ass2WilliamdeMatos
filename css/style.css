@@ -4,12 +4,12 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center; /* Centers text globally */
-)
+}
 
 /* Header Styling */
 header {
   display: flex; /* Uses flexbox for layout */
-  justify-content: space-between; /*Pushes content to opposite sides */
+  justify-content: space-between; /* Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
   padding: 20px;
   background-color: #845BC7; /* Purple background */
@@ -19,65 +19,66 @@ header {
 
 /* Logo Styling */
 .logo {
-    max-width: 100px /* Restricts logo size */
+  max-width: 100px; /* Restricts logo size */
 }
 
 /* Navigation Bar Styling */
 nav {
-    background-color: #333; /* Dark background for contrast */
-    padding: 10px;
+  background-color: #333; /* Dark background for contrast */
+  padding: 10px;
 } 
 
 nav a {
   color: white; /* Sets text color */
-  text-descoration: none; /* Removes underline from links */
+  text-decoration: none; /* Removes underline from links */
   margin: 0 10px; /* Adds spacing between links */
 }
 
 /* Main Content Section Styling */
 .mainpage {
-  background-color: blue
-  color: white; /*Ensures text is visible */
+  background-color: blue;
+  color: white; /* Ensures text is visible */
   padding: 20px; /* Optional: Adds spacing inside */
 }
+
 .content {
-  background-color: #f9f9f9; /* light grey background */
-  pdadding: 20px; /* Add space inside the main section */
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 20px; /* Add space inside the main section */
   border-radius: 10px; /* Rounded corners */
-  text-align: center; /*Center text */
-  width: 100%; /*  Full width */ 
+  text-align: center; /* Center text */
+  width: 100%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed the viewport */
   margin: 0 auto; /* Center horizontally */
-  box-shadow:  0 4px 8px rgba (0, 0, 0, 0.1); /* Add a subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   border: 2px solid #2c3e50; /* Dark blue-grey border */
 }
 
 .content h2 {
-  color: #333; /*Dark grey color for heading */
+  color: #333; /* Dark grey color for heading */
   font-size: 24px; /* Adjust font size */
+}
 
 .content p {
   color: #666; /* Medium grey for paragraph text */
-  font-size: 16; /* Adjust font size */
+  font-size: 16px; /* Adjust font size */
   line-height: 1.5; /* Improve readability */
   max-width: 80%; /* Limit text width for better readability */
 }
 
-sections {
+.sections {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
   padding: 20px;
 }
-  
-  
+
 /* Individual Section Styling */
 .section {
   width: 45%; /* Sets equal width for both sections */
   padding: 20px;
-  border: 1px solid #ddd /* Adds a subtle border */
+  border: 1px solid #ddd; /* Adds a subtle border */
   background-color: #1A42DC; /* Blue background to make it look appealing */
 }
-  
+
 /* Footer Styling */
 footer {
   background-color: #333; /* Matches nav bar */
