@@ -27,7 +27,7 @@ main {
   justify-content: space-between; /*Pushes content to opposite sides */
   align-items: center; /* Aligns items vertically */
   padding: 20px;
-  background-color: #845BC7; /* Light grey background */
+  background-color: #1A42DC; /* Light grey background */
   color: #000000; /* Adds a subtle bottom border */
   border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
 }
@@ -54,7 +54,7 @@ nav a {
   max-width: 100%; /* Ensure it doesn't exceed the viewport */
   margin: 0 auto; /* Center horizontally */
   box-shadow:  0 4px 8px rgba (0, 0, 0, 0.1); /* Add a subtle shadow */
-  border: 2px solid #1A42DC; /* Dark blue-grey border */
+  border: 2px solid #2c3e50; /* Dark blue-grey border */
 }
 
 .content h2 {
