@@ -22,6 +22,15 @@ header {
     max-width: 100px /* Restricts logo size */
 }
 
+main {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: space-between; /*Pushes content to opposite sides */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  background-color: #845BC7; /* Light grey background */
+  color: #000000; /* Adds a subtle bottom border */
+  border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
+}
 /* Navigation Bar Styling */
 nav {
     background-color: #333; /* Dark background for contrast */
