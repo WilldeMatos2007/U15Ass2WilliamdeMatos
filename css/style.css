@@ -71,7 +71,8 @@ nav a {
 sections {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
-  padding: 20px
+  padding: 20px;
+   background-color: #1A42DC; /* Blue background to make it look appealing */
 }
 
 /* Individual Section Styling */
