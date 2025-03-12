@@ -37,7 +37,7 @@ nav a {
 /* Main Content Section Styling */
 
 .content {
-  background-color: #845BC7; /* light grey background */
+  background-color: #f9f9f9; /* light grey background */
   pdadding: 20px; /* Add space inside the main section */
   border-radius: 10px; /* Rounded corners */
   text-align: center; /*Center text */
@@ -63,7 +63,6 @@ sections {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
   padding: 20px;
-   background-color: #1A42DC; /* Blue background to make it look appealing */
 }
   
   
