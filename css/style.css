@@ -49,4 +49,34 @@ nav a {
 }
 
 .content h2 {
-  
+  color: #333; /*Dark grey color for heading */
+  font-size: 24px; /* Adjust font size */
+
+.content p {
+  color: #666; /* Medium grey for paragraph text */
+  font-size: 16; /* Adjust font size */
+  line-height: 1.5; /* Improve readability */
+  max-width: 80%; /* Limit text width for better readability */
+}
+
+sections {
+  display: flex; /* Enables side-by-side layout */
+  justify-content: space-around; /* Spaces sections evenly */
+  padding: 20px
+}
+
+/* Individual Section Styling */
+.section {
+  width: 45%; /* Sets equal width for both sections */
+  padding: 20px;
+  border: 1px solid #ddd /* Adds a subtle border */
+  background-color: #f9f9f9; /* Light background for readability
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333; /* Matches nav bar */
+  color: white; /* White text for contrast */
+  padding: 10px;
+  position: relative;
+}
