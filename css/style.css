@@ -5,7 +5,6 @@ body {
   padding: 20px;
   text-align: center; /* Centers text globally */
 }
-
 /* Header Styling */
 header {
   display: flex; /* Uses flexbox for layout */
@@ -21,16 +20,6 @@ header {
 .logo {
     max-width: 100px /* Restricts logo size */
 }
-
-main {
-  display: flex; /* Uses flexbox for layout */
-  justify-content: space-between; /*Pushes content to opposite sides */
-  align-items: center; /* Aligns items vertically */
-  padding: 20px;
-  background-color: #1A42DC; /* Light grey background */
-  color: #000000; /* Adds a subtle bottom border */
-  border-bottom: 2px solid #ddd; /* Adds a subtle bottom border */
-}
 /* Navigation Bar Styling */
 nav {
     background-color: #333; /* Dark background for contrast */
@@ -42,7 +31,6 @@ nav a {
   text-descoration: none; /* Removes underline from links */
   margin: 0 10px; /* Adds spacing between links */
 }
-
 /* Main Content Section Styling */
 
 .content {
@@ -56,7 +44,6 @@ nav a {
   box-shadow:  0 4px 8px rgba (0, 0, 0, 0.1); /* Add a subtle shadow */
   border: 2px solid #2c3e50; /* Dark blue-grey border */
 }
-
 .content h2 {
   color: #333; /*Dark grey color for heading */
   font-size: 24px; /* Adjust font size */
@@ -74,7 +61,6 @@ sections {
   padding: 20px;
    background-color: #1A42DC; /* Blue background to make it look appealing */
 }
-
 /* Individual Section Styling */
 .section {
   width: 45%; /* Sets equal width for both sections */
@@ -82,7 +68,6 @@ sections {
   border: 1px solid #ddd /* Adds a subtle border */
   background-color: #1A42DC; /* Blue background to make it look appealing */
 }
-
 /* Footer Styling */
 footer {
   background-color: #333; /* Matches nav bar */
