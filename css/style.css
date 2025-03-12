@@ -70,12 +70,12 @@ sections {
   width: 45%; /* Sets equal width for both sections */
   padding: 20px;
   border: 1px solid #ddd /* Adds a subtle border */
-  background-color: #f9f9f9; /* Light background for readability
+  background-color: #1A42DC; /* Blue background to make it look appealing */
 }
 
 /* Footer Styling */
 footer {
-  background-color: #1A42DC; /* Matches nav bar */
+  background-color: #333; /* Matches nav bar */
   color: white; /* White text for contrast */
   padding: 10px;
   position: relative;
