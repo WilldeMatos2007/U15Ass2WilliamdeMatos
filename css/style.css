@@ -23,18 +23,6 @@ header {
   max-width: 100px; /* Restricts logo size */
 }
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Membership</a></li>
-      <li><a href="#">Events and Fees</a></li>
-      <li><a href="#">Education games</a></li>
-      <li><a href="#">Contact us</a></li>
-
-    </ul>
-  </nav>
 
 /* Navigation Bar Styling */
 nav {
