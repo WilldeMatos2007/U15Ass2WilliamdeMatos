@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center; /* Centers text globally */
-  background-color: white; /* Set the background color to blue */
+  background-color: #97D3F7 /*Sets the background colour to blue*/
 }
 
 /* Header Styling */
@@ -34,6 +34,7 @@ nav a {
   color: white; /* Sets text color */
   text-decoration: none; /* Removes underline from links */
   margin: 0 10px; /* Adds spacing between links */
+}
 
 .content {
   background-color: #1A42DC; /* Light grey background */
