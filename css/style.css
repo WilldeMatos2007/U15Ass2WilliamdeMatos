@@ -64,6 +64,7 @@ nav a {
   display: flex; /* Enables side-by-side layout */
   justify-content: space-around; /* Spaces sections evenly */
   padding: 20px;
+
 }
 
 /* Individual Section Styling */
@@ -72,6 +73,7 @@ nav a {
   padding: 20px;
   border: 1px solid #ddd; /* Adds a subtle border */
   background-color: #845BC7; /* Purple background to make it look appealing */
+  border-radius: 32px; /* Makes the textboxes curved out */
 }
 
 /* Footer Styling */
@@ -80,4 +82,66 @@ footer {
   color: white; /* White text for contrast */
   padding: 10px;
   position: relative;
+}
+/* Container styling for the form */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #97D3F7; /* New background color */
+}
+
+/* Styling for the form heading */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for form labels */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+/* Styling for input fields and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Allow textarea resizing only vertically */
+textarea {
+  resize: vertical;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+.address2{
+  border-radius: 5%;
 }
