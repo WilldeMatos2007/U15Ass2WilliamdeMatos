@@ -178,18 +178,20 @@ button:hover {
   border-radius: 5%
 }
 
-  .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        table {
-            border-collapse: collapse;
-            width: 50%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
+ 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px; /* Optional: Set a max-width to limit the table's width */
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
