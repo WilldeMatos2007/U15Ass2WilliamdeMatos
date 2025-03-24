@@ -22,6 +22,7 @@
         <a href="../pages/aboutus.html">About us</a> <!-- Navigation link to About us page -->
         <a href="../pages/membership.html">Membership</a> <!-- Navigation link to Membership page -->
         <a href="../pages/eventsandfees.html">Events and Fees</a> <!-- Navigation link to Events and Fees page -->
+        <a href="../pages/eventshistory.html">Events history</a> <!-- Navigation link to Events history-->
         <a href="../pages/educationgames.html">Education Games</a> <!-- Navigation link to Education Games page -->
         <a href="../pages/contactus.html">Contact us</a> <!-- Navigation link to Contact us page -->
       </nav>
@@ -32,26 +33,30 @@
       <div class="form-container">
         <h2>Registration Form</h2>
         <form action="submit_form.php" method="post">
-            <!-- Input for Name -->
-            <label for="name">Name</label>
+            <!-- Input for First Name -->
+            <label for="name">First Name</label>
             <input type="text" id="name" name="name" required>
-
+        
+            <!-- Input for Surname -->
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" required>
+        
             <!-- Input for Email -->
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-
+        
             <!-- Input for Mobile Number -->
             <label for="mobile">Mobile Number</label>
             <input type="tel" id="mobile" name="mobile" required>
-
+        
             <!-- Textarea for Address -->
             <label for="address">Address</label>
             <textarea id="address" name="address" rows="3" required></textarea>
-
+        
             <!-- Input for Social Media Handle -->
             <label for="social">Social Media Handle</label>
             <input type="text" id="social" name="social">
-
+        
             <!-- Submit Button -->
             <button type="submit">Register</button>
         </form>
