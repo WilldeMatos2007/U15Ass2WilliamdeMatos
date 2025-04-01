@@ -1,5 +1,1 @@
-function saybye() {
-alert("Bye!");
- 
-}
- 
+
