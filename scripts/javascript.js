@@ -1,4 +1,4 @@
-function sayHi() {
+function saybye() {
 alert("Bye!");
  
 }
